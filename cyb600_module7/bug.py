@@ -11,8 +11,8 @@ def unlock_the_locks():
     word1 = input("Input the first key: ")
     word2 = input("Input the second key: ")
     if word1 == "key1" and word2 == "key2":
-    	return "Unlocked!"
-    elif word1 == "key1":
+        return "Unlocked!"
+    if word1 == "key1":
         return "Key 1 Unlocked"
     return "Locked!"
 
